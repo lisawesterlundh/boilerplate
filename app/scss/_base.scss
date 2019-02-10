@@ -1,0 +1,17 @@
+html {
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $text-color--main;
+  font-size: $font-size--m;
+  text-decoration: none;
+}
+
+* + * {
+  margin-top: 1rem;
+}
