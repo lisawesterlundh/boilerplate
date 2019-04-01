@@ -15,7 +15,6 @@ function style() {
 
 function reload() {
   browserSync.reload();
-  sass.reload();
 }
 
 function watch() {
@@ -26,7 +25,8 @@ function watch() {
     }
   });
   gulp.watch('app/scss/*.scss', style);
-  gulp.watch('*.*', reload);
+
+  gulp.watch('*.html', reload);
 }
 
 exports.style = style;

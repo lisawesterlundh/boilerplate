@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main > * {
+  flex-basis: 10em;
+  flex-grow: 1;
+  color: RED;
+  border: 3px solid lightblue;
+  height: 100px;
+}
